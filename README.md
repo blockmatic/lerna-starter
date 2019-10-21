@@ -26,6 +26,10 @@ Starter Repo Boilerplate for LernaJS Projects @ Blockmatic
 - Install node.js v11 on your machine. We recommend using [nvm](https://github.com/creationix/nvm) or [n](https://github.com/tj/n), and [avn](https://github.com/wbyoung/avn) to manage multiple node.js versions on your computer.
 - Yarn https://yarnpkg.com/lang/en/docs/install/.
 
+**Initial Setup**
+
+Run `yarn install`, `yarn bootstrap` to setup the project.
+
 ## Commands
 
 - `yarn test`: lerna run test --stream
