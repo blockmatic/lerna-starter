@@ -28,7 +28,7 @@ Starter Repo Boilerplate for LernaJS Projects @ Blockmatic
 
 **Initial Setup**
 
-Run `yarn install`, `yarn bootstrap` to setup the project.
+Run `yarn install`, `yarn bootstrap` to setup the project. Copy `.env-sample` and create `.env` file with your `GITHUB_TOKEN` for deployment with `lerna release`.
 
 ## Commands
 
