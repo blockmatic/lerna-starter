@@ -1,0 +1,42 @@
+{
+  "name": "blockmatic-lerna-starter",
+  "description": "Lerna Starter",
+  "author": "gaboesquivel.com",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "lerna run test --stream",
+    "build": "lerna run build --stream",
+    "lint": "lerna run lint --stream",
+    "commit": "dev-scripts commit",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "release": "env-cmd lerna publish",
+    "diff": "lerna diff"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@blockmatic/dev-scripts": "^1.6.1",
+    "@blockmatic/tsconfig": "^1.2.3",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "husky": "^3.0.9",
+    "lerna": "^3.18.1",
+    "typescript": "3.5"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:blockmatic/lerna-starter.git",
+  "license": "MIT"
+}
