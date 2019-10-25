@@ -23,7 +23,6 @@ Starter Repo Boilerplate for LernaJS Projects @ Blockmatic.
 
 Lerna.js is tool for managing JavaScript projects with multiple packages.
 
-
 Splitting up large codebases into separate independently versioned packages
 is extremely useful for code sharing. However, making changes across many
 repositories is _messy_ and difficult to track, and testing across repositories
@@ -42,7 +41,7 @@ copies of packages in development and build environments - normally a
 downside of dividing a project into many separate NPM packages. See the
 [hoist documentation](doc/hoist.md) for details.
 
-## Getting Started
+## Usage
 
 **Global Dependencies**
 
@@ -67,26 +66,9 @@ Run `yarn install`, `yarn bootstrap` to setup the project. Copy `.env-sample` an
 
 Read the [contributing guidelines](https://developers.blockmatic.io) for details.
 
-## Bug Reporting
-
-Please report bugs big and small by [opening an issue](https://github.com/blockmatic/lerna-starter/issues/new). No possible bug report is too small.
-
 ## License
 
 MIT © [Blockmatic](http://blockmatic.io)  
-See LICENSE for more info
-
-## Become a Supporter
-
-You can become by sending us crypto to the following addresses:
-
-- EOS: blockmaticio
-- TELOS (TLOS): blockmaticio
-- DASH: XpTy5w6ysLpVWCiFCC1YaRtmYoVGBRQ1jW
-- Bitcoin (BTC): 3FgNyHz1aTMGHWrK2G3FzCxBHZnqQAnaqs
-- Bitcoin Cash (BCH): prnm5m2rwct4q548llf5twchk8wg5dnp9yvqdh9z97
-- Ether (ETH): 0xd341e8d372719b6da3577a7fc9b8b0f66324e2bd
-- Litecoin (LTC): MJ7KJTVHYzJd5Np2keaSdmLBbB39mMW54G
 
 ---
 
