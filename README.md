@@ -68,13 +68,13 @@ Read the [contributing guidelines](https://developers.blockmatic.io) for details
 
 ## License
 
-MIT © [Blockmatic](http://blockmatic.io)  
+MIT © Blockmatic
 
 ---
 
 ## Blockmatic
 
-Blockmatic is a boutique software development firm specialized in blockchain and cryptocurrency.
+Blockmatic is building a robust ecosystem of people and tools for development of decentralized applications (dApps) and fintech solutions.
 
 [blockmatic.io](https://blockmatic.io)
 
