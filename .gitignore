@@ -68,3 +68,8 @@ cjs
 # IDEs
 .history
 .vscode
+
+
+packages/**/lib
+example/build
+**/node_modules
