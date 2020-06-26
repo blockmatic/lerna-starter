@@ -1,5 +1,5 @@
 {
-  "name": "@blockmatic/a",
+  "name": "@blockmatic/super-computer",
   "version": "1.0.0",
   "description": "",
   "author": "Blockmatic.io",
@@ -17,5 +17,11 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "peerDependencies": {
+    "@blockmatic/meaning-of-life": "1.0.0"
+  },
+   "publishConfig": {
+    "access": "public"
+  }
 }

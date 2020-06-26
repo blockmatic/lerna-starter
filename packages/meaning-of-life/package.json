@@ -1,5 +1,5 @@
 {
-  "name": "@blockmatic/b",
+  "name": "@blockmatic/meaning-of-life",
   "version": "1.0.0",
   "description": "",
   "author": "Blockmatic.io",
@@ -17,5 +17,8 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
