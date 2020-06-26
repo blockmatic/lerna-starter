@@ -1,0 +1,20 @@
+{
+  "name": "@blockmatic/b",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Blockmatic.io",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo 'no tests'",
+    "build": "tsc",
+    "prepublishOnly": "$npm_execpath run build"
+  },
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
+}

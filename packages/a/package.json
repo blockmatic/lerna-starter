@@ -1,17 +1,18 @@
 {
-  "name": "my-package",
+  "name": "@blokmatic/a",
   "version": "1.0.0",
   "description": "",
   "author": "Blockmatic.io",
   "license": "MIT",
   "main": "lib/index.js",
+  "typings": "lib/index.js",
   "scripts": {
     "test": "echo 'no tests'",
     "build": "tsc",
     "prepublishOnly": "$npm_execpath run build"
   },
   "directories": {
-    "lib": "lib",
+    "dist": "dist",
     "test": "__tests__"
   },
   "files": [
