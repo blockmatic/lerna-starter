@@ -1,11 +1,11 @@
 {
-  "name": "@blokmatic/a",
+  "name": "@blockmatic/a",
   "version": "1.0.0",
   "description": "",
   "author": "Blockmatic.io",
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "lib/index.js",
+  "main": "lib/index",
+  "types": "lib/index",
   "scripts": {
     "test": "echo 'no tests'",
     "build": "tsc",
