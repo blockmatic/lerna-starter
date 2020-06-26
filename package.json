@@ -1,7 +1,7 @@
 {
   "name": "blockmatic-lerna-starter",
   "description": "Lerna Starter",
-  "author": "gaboesquivel.com",
+  "author": "blockmatic.io",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
