@@ -5,7 +5,7 @@
   "author": "Blockmatic.io",
   "license": "MIT",
   "main": "lib/index.js",
-  "typings": "lib/index.js",
+  "types": "lib/index.js",
   "scripts": {
     "test": "echo 'no tests'",
     "build": "tsc",
