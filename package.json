@@ -10,7 +10,6 @@
   "scripts": {
     "test": "echo 'no tests'",
     "build": "lerna run build --stream",
-    "commit": "dev-scripts commit",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "release": "env-cmd lerna publish",
     "diff": "lerna diff",
