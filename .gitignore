@@ -69,7 +69,7 @@ cjs
 .history
 .vscode
 
-
-packages/**/lib
+tsconfig.tsbuildinfo
+packages/**/dist
 example/build
 **/node_modules

@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "packages/meaning-of-life" }, { "path": "packages/super-computer" }]
+}

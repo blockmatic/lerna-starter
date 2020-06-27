@@ -4,8 +4,8 @@
   "description": "",
   "author": "Blockmatic.io",
   "license": "MIT",
-  "main": "lib/index",
-  "types": "lib/index",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "echo 'no tests'",
     "build": "tsc",
