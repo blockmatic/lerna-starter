@@ -14,9 +14,11 @@
 	</a>
 </p>
 
-# Lerna Starter
+# Monorepo Starter
 
-Starter Repo Boilerplate for LernaJS Projects @ Blockmatic.
+Monorepo Boilerplate for projects @ Blockmatic.
+
+## Getting Started
 
 Lerna.js is tool for managing JavaScript projects with multiple packages.
 
