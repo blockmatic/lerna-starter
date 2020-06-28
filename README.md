@@ -48,7 +48,7 @@ Run `yarn install`, `yarn bootstrap` to setup the project. Copy `.env-sample` an
 ## Commands
 
 - `yarn test`: lerna run test --stream
-- `yarn build`: lerna run build --stream
+- `yarn build`: tsc --build (with ts references)
 - `yarn lint`: lerna run lint --stream
 - `yarn commit`: dev-scripts commit
 - `yarn bootstrap`: lerna bootstrap --use-workspaces
