@@ -16,23 +16,15 @@
 
 # Monorepo Starter
 
-Monorepo Boilerplate for projects @ Blockmatic.
+Splitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is _messy_ and difficult to track, and testing across repositories gets complicated really fast.
 
-## Getting Started
+Lerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.
 
-Lerna.js is tool for managing JavaScript projects with multiple packages.
+TypeScript references are a new feature in TypeScript 3.0 that allow you to structure your TypeScript programs into smaller pieces.
 
-Splitting up large codebases into separate independently versioned packages
-is extremely useful for code sharing. However, making changes across many
-repositories is _messy_ and difficult to track, and testing across repositories
-gets complicated really fast.
+By doing this, you can greatly improve build times, enforce logical separation between components, and organize your code in new and better ways.
 
-**Lerna is a tool that optimizes the workflow around managing multi-package
-repositories with git and npm.**
-
-Watch Ben Awad's tutorials on [Yarn Workspaces](https://www.youtube.com/watch?v=G8KXFWftCg0) and [Lerna with TypeScript](https://www.youtube.com/watch?v=EoqzOEZIzhg) to learn more.
-
-This starter support [Blockmatic Code Style](https://github.com/blockmatic/dev-configs) out of the box.
+We’re also introducing a new mode for tsc, the --build flag, that works hand in hand with project references to enable faster TypeScript builds.
 
 ## Usage
 
